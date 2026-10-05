@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS links (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    user_id UUID,
+    user_id UUID NOT NULL ,
     long_url TEXT NOT NULL,
     short_url TEXT NOT NULL UNIQUE,
     clicks INT DEFAULT 0,
