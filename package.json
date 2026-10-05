@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/Yashguptajii/URL_Shortener#readme",
   "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "nanoid": "^6.0.1",
     "pg": "^8.23.1"
   }
 }
